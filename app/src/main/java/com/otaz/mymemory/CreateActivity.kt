@@ -41,7 +41,6 @@ class CreateActivity : AppCompatActivity() {
         private const val READ_PHOTOS_PERMISSION = android.Manifest.permission.READ_EXTERNAL_STORAGE
         private const val MIN_GAME_NAME_LENGTH = 3
         private const val MAX_GAME_NAME_LENGTH = 14
-
     }
 
     private lateinit var rvImagePicker: RecyclerView
